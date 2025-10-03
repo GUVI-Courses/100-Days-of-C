@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    int a, b;
+
+    printf("Enter operand A (int) : ");
+    scanf("%d", &a);
+    printf("Enter operand B (int) : ");
+    scanf("%d", &b);
+    printf("\n");
+
+    printf("A == B --> %d\n", a==b);
+    printf("A != B --> %d\n", a!=b);
+    printf("A > B --> %d\n", a>b);
+    printf("A < B --> %d\n", a<b);
+    printf("A >= B --> %d\n", a>=b);
+    printf("A <= B --> %d\n", a<=b);
+
+    return 0;
+
+
+}
